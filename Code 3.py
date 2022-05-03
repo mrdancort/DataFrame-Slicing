@@ -41,18 +41,6 @@ print("Variance is %.4f" %
 
 pView = myDataFrame.iloc[ 28 : 68, 5 : 15 ]
 
-"""
-Professor, I was confused with the instructions for task 7. Am I supposed to 
-include rows 30-70 including 70? because if so the shape changes to (41,10). 
-The code above is for rows 30 through 69 (According to Excel).
-
-This is my code for rows 30-70 (according to Excel):
-
-pView = myDataFrame.iloc[ 28 : 69, 5 : 15 ]
-which has a shape of (41,10)
-
-"""
-
 # 8. Create a new DataFrame object. This new object will hold all columns 
 # from rows 82 - 231 (inclusive and according to Excel). Your new DataFrame 
 # should have 150 rows and 30 columns.
